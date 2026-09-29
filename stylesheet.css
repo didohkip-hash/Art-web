@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Caacupe+One&family=Google+Sans+Flex:opsz,wght@6..144,1..1000&family=Pacifico&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    background: #000050;
+	font-family:"Google sans Flex";
+	color:white;
+}
+
+
+figcaption{
+	font-family:"Google Sans Flex";
+	font-weight:900;
+}
+
+h2{
+	font-family:"Google Sans flex";
+}
+h3{
+	font-family:"Google Sans flex";
+}
+a:hover{
+	color: rebeccapurple;
+}
+:active{
+	color: #500050;
+}
+a:link{
+	color:#500050;
+	text-decoration:none;
+	font-family:"Google Sans flex";
+}
+img{
+	border:2px solid white;
+}
+
+header>*{
+	display:flex;
+	color: #500050;
+	
+	
+}
+header{
+	display: flex;
+	background-color:white;
+	font-family:"Google Sans flex";
+	justify-content: space-between;
+	gap: 20px;
+	padding: 0px 50px;
+	
+	
+}
+nav{
+	display:flex;
+	align-items: center;
+	gap: 35px;
+	
+}
+main{
+	padding:20px ;
+}
+.container{
+	display:grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 20px;
+	
+}
