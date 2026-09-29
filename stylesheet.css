@@ -21,7 +21,7 @@ h3{
 a:hover{
 	color: rebeccapurple;
 }
-:active{
+a:active{
 	color: #500050;
 }
 a:link{
